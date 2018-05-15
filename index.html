@@ -1,0 +1,110 @@
+<!-- Udacity FEND Project #1 -->
+<!--  Project: Portfolio Site
+	  File Name: index.html
+      Author: Steve Prager
+      Last Edited: 5/11/18 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <!-- HEAD
+        Two CSS files linked here; 1) styles.css (core CSS design) and 2) responsive.css (responsive
+        layout adjustments using media queries)
+   -->
+  <head>
+  	<title>Steve Prager - Front End Web Development Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah">
+    <!-- ICON LIBRARY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <!-- BODY -->
+  <body>
+
+    <!-- PORTFOLIO DIV CONTAINER -->
+  	<div id="portfolio">
+
+      <!-- HEADER -->
+  	  <header class="portfolio-header">     
+        <img class="personal-logo" src="img/SP_Logo.png" alt="SP Logo">
+        <div class="header-text">
+          <h1 class="header-title">
+            Steve Prager
+          </h1>
+          <h4 class="header-sub-title">
+            Front-End Fledgling
+          </h4>
+        </div>
+      </header>
+      <hr class="header-break">
+
+      <!-- MAIN CONTENT BODY -->
+      <div class="portfolio-content">
+
+      	<!-- MAIN IMAGE -->
+        <section id="main-image">
+          <!-- SOURCE - https://www.2440media.com/blog/why-web-design-a-good-career-choice -->
+      	  <img src="img/web_design.jpg" alt="A designer at work" class="image" id="web-design-image">
+      	</section>
+
+      	<section id="heading-one">
+      	  <h2 class="heading-title">
+      	    Featured Work
+      	  </h2>
+      	  <p class="heading-text">
+      	  	Check out some of my projects below!
+      	  </p>
+      	</section>
+      	<hr class="section-break">
+
+        <!-- PROJECTS -->
+      	<section class="projects">
+      	  <section id="animal-trading-card" class="project">
+      	    <h3 class="project-title">
+      		  Animal Trading Card
+      		</h3>
+      		<img src="img/ATC_tardigrade.jpg" alt="A tardigrade animal" class="project-image" id="ATC-image">
+      		<a href="https://codepen.io/stephenprager92/full/JMxjzX" class="project-link">
+      		  https://codepen.io/stephenprager92/full/JMxjzX
+      		</a>
+      	  </section>
+      	  <section id="pixel-art-maker" class="project">
+      	    <h3 class="project-title">
+      		  Pixel Art Maker
+      	    </h3>
+      	    <img src="img/pixel_mario.jpg" alt="A pixelated Mario" class="project-image" id="PAM-image">
+      		<a href="https://codepen.io/stephenprager92/full/bLpEgY" class="project-link">
+      		  https://codepen.io/stephenprager92/full/JMxjzX
+      		</a>
+      	  </section>
+      	  <section id="progress-tracker" class="project">
+      	    <h3 class="project-title">
+      		  GwG Course Tracker
+      	    </h3>
+      	    <img src="img/coffee_cup.png" alt="A coffee cup" class="project-image" id="CT-image">
+      		<a href="https://rawgit.com/study-buddies/SPA-GWG-progress-list/master/study-buddies-spa.html" class="project-link">
+      		  https://rawgit.com/study-buddies/SPA-GWG-progress-list/master/study-buddies-spa.html
+      		</a>
+      	  </section>
+      	</section>
+
+      	<hr class="section-break">
+
+        <!-- FOOTER -->
+        <footer class="portfolio-footer">
+        	<p class="footer-text"> 
+        	  Stay tuned for more projects as I complete the Udacity FEND Course!
+        	</p>
+        </footer>
+ 
+      </div>
+
+    </div>
+
+  </body>
+</html>

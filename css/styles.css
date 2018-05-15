@@ -1,0 +1,160 @@
+/* Udacity FEND Project #1 
+      Project: Portfolio Site
+	  File Name: styles.css
+      Author: Steve Prager
+      Last Edited: 5/11/18 */
+
+
+ body, html {
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+
+#portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #0000b3
+}
+
+.portfolio-header {
+	display: flex;
+	min-height: 76px;
+	max-height: 120px;
+	height: 20%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+}
+
+.personal-logo {
+	max-height: 110px;
+	max-width: 150px;
+	margin: 12px;
+	border: #0000b3;
+}
+
+.header-text {
+	text-align: right;
+    align-self: flex-end;
+}
+
+.header-title { 
+  margin: 0;
+}
+
+.header-sub-title {
+  margin: 0;
+}
+
+.header-break {
+	width: 90%;
+	border-top: 3px solid #0000b3;
+}
+
+.portfolio-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-image {
+	width: 100%;
+}
+
+#web-design-image {
+	height: 300px;
+	width: 500px;
+	border: 2px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading-title {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.heading-text {
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.section-break {
+	width: 100%;
+	border-top: 3px solid #0000b3;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px;
+	width: 100%;
+}
+
+.project {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0;
+	width: 33%;
+}
+
+.project-title {
+	margin-top: 0;
+	margin-bottom: 5px;
+	width: 90%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-image {
+	width: 90%;
+	display: block;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ATC-image {
+	height: 170px;
+}
+
+#PAM-image {
+	height: 240px;
+}
+
+#CT-image {
+   height: 180px;
+}
+
+.project-link {
+	word-wrap: break-word;
+    max-width: 80%;
+    font-size: 0.6em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-footer {
+	text-align: right;
+	min-height: 45px;
+	max-height: 80px;
+	height: 10%;
+	width: 100%;
+	margin: 0;
+}
+
+.footer-text {
+	font-size: 0.6em;
+	text-align: right;
+}
