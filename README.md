@@ -5,11 +5,11 @@ This portfolio is used to display the front-end web development work of Stephen 
 
 ## Directory
 
-index.html -> Holds all text markup for the portfolio page
-./img -> Used to store all images used in the portfolio
-./css -> Used to store all CSS files used in styling the portfolio. Currently there are two:
-       1) styles.css -> Holds core CSS styling
-       2) responsive.css -> Holds media queries used to make the portfolio page responsive for phones / tablets
+..* index.html -> Holds all text markup for the portfolio page
+..* ./img -> Used to store all images used in the portfolio
+..* ./css -> Used to store all CSS files used in styling the portfolio. Currently there are two:
+       1. styles.css -> Holds core CSS styling
+       2. responsive.css -> Holds media queries used to make the portfolio page responsive for phones / tablets
    
 ## Licensing
 
